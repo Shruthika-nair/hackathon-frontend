@@ -433,7 +433,7 @@ with st.sidebar:
             format_func=lambda x: HAZARD_CONFIG[x]["label"],
         )
         description = st.text_area("Description", placeholder="Describe the hazard...", max_chars=500)
-        reported_by = st.text_input("Your Name", placeholder="e.g. Shruthika")
+        reported_by = "Shruthika"
         image = st.file_uploader("Photo (optional)", type=["jpg", "jpeg", "png"])
 
         col1, col2 = st.columns([1, 1])
